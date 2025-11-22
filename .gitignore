@@ -1,0 +1,38 @@
+# Node / JavaScript tooling (future-proof)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / bundle output (if you add a bundler later)
+dist/
+build/
+coverage/
+.webpack/
+.rollup.cache/
+parcel-cache/
+
+# Firefox web-ext output
+web-ext-artifacts/
+
+# Packaged browser extensions
+*.crx
+*.xpi
+*.pem
+posthop-*.zip
+posthop-extension-*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.iml
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
