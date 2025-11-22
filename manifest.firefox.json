@@ -37,7 +37,10 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "posthop@example.com"
+      "id": "posthop@example.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
